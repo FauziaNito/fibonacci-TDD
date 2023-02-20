@@ -1,3 +1,6 @@
 export default function fibonacci(num) {
-  return num === 0 ? 0 : 1;
+  if (num < 2) {
+    return num;
+  }
+  return fibonacci(num - 1) + fibonacci(num - 2);
 }

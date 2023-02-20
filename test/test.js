@@ -14,4 +14,8 @@ describe('Testing Fibonacci', () => {
     const result = fibonacci(2);
     assert.equal(result, 1);
   });
+  it('should return fibonacci 3 is 2', () => {
+    const result = fibonacci(3);
+    assert.equal(result, 2);
+  });
 });
