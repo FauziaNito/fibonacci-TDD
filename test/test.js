@@ -10,4 +10,8 @@ describe('Testing Fibonacci', () => {
     const result = fibonacci(1);
     assert.equal(result, 1);
   });
+  it('should return fibonacci 2 is 1', () => {
+    const result = fibonacci(2);
+    assert.equal(result, 1);
+  });
 });

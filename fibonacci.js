@@ -1,3 +1,3 @@
 export default function fibonacci(num) {
-  return num;
+  return num === 0 ? 0 : 1;
 }
