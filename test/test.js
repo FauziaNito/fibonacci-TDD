@@ -6,4 +6,8 @@ describe('Testing Fibonacci', () => {
     const result = fibonacci(0);
     assert.equal(result, 0);
   });
+  it('should return fibonacci 1 is 1', () => {
+    const result = fibonacci(1);
+    assert.equal(result, 1);
+  });
 });
