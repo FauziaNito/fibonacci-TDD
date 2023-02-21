@@ -51,4 +51,8 @@ describe('Testing Fibonacci', () => {
     const result = fibonacci(25);
     assert.equal(result, 75025);
   });
+  it('should return fibonacci 50 is 12586269025', () => {
+    const result = fibonacci(50);
+    assert.equal(result, 12586269025);
+  });
 });
