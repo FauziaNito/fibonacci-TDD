@@ -47,4 +47,8 @@ describe('Testing Fibonacci', () => {
       'n must be a positive non-zero integer',
     );
   });
+  it('should return fibonacci 25 is 75025', () => {
+    const result = fibonacci(25);
+    assert.equal(result, 75025);
+  });
 });
