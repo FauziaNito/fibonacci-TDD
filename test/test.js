@@ -35,4 +35,10 @@ describe('Testing Fibonacci', () => {
       'n must be a positive non-zero integer',
     );
   });
+  it('should throw error for "9"', () => {
+    assert.throws(
+      () => fibonacci('9'),
+      'n must be a positive non-zero integer',
+    );
+  });
 });
