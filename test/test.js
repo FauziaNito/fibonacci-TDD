@@ -41,4 +41,10 @@ describe('Testing Fibonacci', () => {
       'n must be a positive non-zero integer',
     );
   });
+  it('should throw error for "life is good"', () => {
+    assert.throws(
+      () => fibonacci('life is good'),
+      'n must be a positive non-zero integer',
+    );
+  });
 });
