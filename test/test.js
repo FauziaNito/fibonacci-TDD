@@ -1,7 +1,7 @@
 import { assert } from 'chai';
-import { fibonacciMemo } from '../fibonacci.js';
+import { fibonacciNext } from '../fibonacci.js';
 
-const fibonacci = fibonacciMemo;
+const fibonacci = fibonacciNext;
 
 describe('Testing Fibonacci', () => {
   it('should return fibonacci 0 is 0', () => {
