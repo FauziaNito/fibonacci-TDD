@@ -1,5 +1,7 @@
 import { assert } from 'chai';
-import fibonacci from '../fibonacci.js';
+import { fibonacciRecursive } from '../fibonacci.js';
+
+const fibonacci = fibonacciRecursive;
 
 describe('Testing Fibonacci', () => {
   it('should return fibonacci 0 is 0', () => {
