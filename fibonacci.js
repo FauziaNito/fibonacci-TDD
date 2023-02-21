@@ -1,6 +1,6 @@
 export default function fibonacci(num) {
   if (num < 0) {
-    throw new Error('Argument should not be negative Number');
+    throw new Error('n must be a positive non-zero integer');
   }
   if (num < 2) {
     return num;

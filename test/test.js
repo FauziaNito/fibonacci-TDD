@@ -27,6 +27,6 @@ describe('Testing Fibonacci', () => {
     assert.equal(result, 5);
   });
   it('should throw error for -1', () => {
-    assert.throws(() => fibonacci(-1), 'Argument should not be negative Number');
+    assert.throws(() => fibonacci(-1), 'n must be a positive non-zero integer');
   });
 });
